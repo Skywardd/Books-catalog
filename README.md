@@ -1,9 +1,11 @@
 Book Search App
+
 The Book-Catalouge App is a web application that allows users to search for books using the Google Books API. It was built using React and Typescript on the front-end and Express.js on the back-end.
 
 GOOGLE API_KEY is required to run the application, you can add it on SearchBooks.js. 
 
 Features
+
 The Book Search App allows users to:
 
 - Search for books using keywords
@@ -12,12 +14,14 @@ The Book Search App allows users to:
 - Navigate through multiple pages of search results using pagination
 
 Getting Started
+
 To get started with the Book-Catalouge App, you will need to have the following tools installed:
 
 Node.js
 NPM or Yarn package manager
 
 Installation
+
 To install the Book-Catalouge App, follow these steps:
 
 Clone the repository from GitHub using the following command:
