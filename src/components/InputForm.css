@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Poppins&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+.input-form {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 40px 200px;
+    position: relative;
+    align-items: center;
+}
+
+
+.user-input {
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-size: 25px;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 5px black; 
+}
+
+.user-input:focus { 
+    box-shadow: 0 0 1000px 1000px rgba(0, 0,0,0.5);
+    outline:none;
+
+}
+
+
+.submit-button {
+    position:absolute;
+    width: 80px;
+    height: 50px;
+    margin:12px;
+    border-radius: 50px;
+    right:0px;
+    border: none;
+    font-size: 15px;
+    background-color: #567189;
+    color:white;
+    transition: 0.2s all;
+    box-shadow: 0 0 10px black;
+    font-family: "Poppins", sans-serif;   
+}
+
+.submit-button:hover{
+    background-color: #388ae2;
+}
+
+.submit-button:active {
+    transform: scale(0.8);
+    box-shadow: 0 0 5pc black;
+} 
